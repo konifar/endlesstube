@@ -7,9 +7,46 @@ body {
 }
 
 #endless-control-area input {
-    width: 30px;
+    width: 35px;
+    text-align: right;
 }
 
-#endless-control-area #endless-time {
-    width: 50px;
+#endless-control-area form {
+    margin: 0;
+}
+
+.about {
+	color: #5A5A5A;
+}
+
+.about .span4 {
+margin: 10px;
+}
+
+.about .span4 .navigator {
+	padding: 5px 15px;
+    background-color: #EEEEEE;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+
+.snsb {
+    overflow: hidden;
+}
+.snsb li {
+    float: left;
+    margin-right: 4px;
+    list-style-type: none;
+}
+.snsb iframe {
+    margin: 0 !important;
+}
+
+.fb-like iframe {
+    max-width: none !important;
+    max-height: none !important;
 }
